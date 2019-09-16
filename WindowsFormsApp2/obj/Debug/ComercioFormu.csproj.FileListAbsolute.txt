@@ -1,0 +1,16 @@
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\ComercioFormu.csprojAssemblyReference.cache
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.frmInicio.resources
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\ComercioFormu.csproj.GenerateResource.cache
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\ComercioFormu.csproj.CoreCompileInputs.cache
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\Dominio.dll
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\Negocio.dll
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\Dominio.pdb
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\Negocio.pdb
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\ComercioFormu.csproj.CopyComplete
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\Rafa\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.frmAgregarArticulo.resources

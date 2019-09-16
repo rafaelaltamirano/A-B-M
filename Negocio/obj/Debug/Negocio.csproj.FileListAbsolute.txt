@@ -1,0 +1,9 @@
+C:\Users\Rafa\source\repos\WindowsFormsApp2\Negocio\bin\Debug\Negocio.dll
+C:\Users\Rafa\source\repos\WindowsFormsApp2\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Rafa\source\repos\WindowsFormsApp2\Negocio\bin\Debug\Dominio.dll
+C:\Users\Rafa\source\repos\WindowsFormsApp2\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Rafa\source\repos\WindowsFormsApp2\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Rafa\source\repos\WindowsFormsApp2\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Rafa\source\repos\WindowsFormsApp2\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Rafa\source\repos\WindowsFormsApp2\Negocio\obj\Debug\Negocio.dll
+C:\Users\Rafa\source\repos\WindowsFormsApp2\Negocio\obj\Debug\Negocio.pdb
