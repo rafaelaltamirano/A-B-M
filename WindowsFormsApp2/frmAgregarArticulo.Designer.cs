@@ -35,7 +35,6 @@
             this.lblMarca = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
-            this.cboCategoria = new System.Windows.Forms.ComboBox();
             this.cboMarca = new System.Windows.Forms.ComboBox();
             this.lblCosto = new System.Windows.Forms.Label();
             this.txtCosto = new System.Windows.Forms.TextBox();
@@ -49,6 +48,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btnAdjuntar = new System.Windows.Forms.Button();
             this.picBoxImg = new System.Windows.Forms.PictureBox();
+            this.cboCategoria = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxImg)).BeginInit();
             this.SuspendLayout();
             // 
@@ -130,16 +130,6 @@
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(590, 40);
             this.txtDescripcion.TabIndex = 14;
-            // 
-            // cboCategoria
-            // 
-            this.cboCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboCategoria.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboCategoria.FormattingEnabled = true;
-            this.cboCategoria.Location = new System.Drawing.Point(152, 92);
-            this.cboCategoria.Name = "cboCategoria";
-            this.cboCategoria.Size = new System.Drawing.Size(435, 40);
-            this.cboCategoria.TabIndex = 15;
             // 
             // cboMarca
             // 
@@ -287,6 +277,16 @@
             this.picBoxImg.TabStop = false;
             this.picBoxImg.Click += new System.EventHandler(this.picBoxImg_Click);
             // 
+            // cboCategoria
+            // 
+            this.cboCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboCategoria.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboCategoria.FormattingEnabled = true;
+            this.cboCategoria.Location = new System.Drawing.Point(152, 92);
+            this.cboCategoria.Name = "cboCategoria";
+            this.cboCategoria.Size = new System.Drawing.Size(435, 40);
+            this.cboCategoria.TabIndex = 15;
+            // 
             // frmAgregarArticulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -333,7 +333,6 @@
         private System.Windows.Forms.Label lblMarca;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtDescripcion;
-        private System.Windows.Forms.ComboBox cboCategoria;
         private System.Windows.Forms.ComboBox cboMarca;
         private System.Windows.Forms.Label lblCosto;
         private System.Windows.Forms.TextBox txtCosto;
@@ -347,5 +346,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnAdjuntar;
         private System.Windows.Forms.PictureBox picBoxImg;
+        private System.Windows.Forms.ComboBox cboCategoria;
     }
 }

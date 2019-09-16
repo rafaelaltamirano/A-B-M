@@ -93,8 +93,8 @@ namespace WindowsFormsApp2
                     //precargo dichos datos
                     Text = "Modificar";
                     txtNombre.Text = articulo.Modelo;
-                    cboCategoria.SelectedValue =articulo.Categoria.Id;
-                    cboMarca.SelectedValue = articulo.Marca;
+                    cboCategoria.SelectedValue =(int)articulo.Categoria.Id;
+                    cboMarca.Text=(string)articulo.Categoria.Nombre; ;
                     txtDescripcion.Text = articulo.Descripcion;
                     picBoxImg.Image = Image.FromFile(articulo.Imagen);
                     txtVenta.Text = Convert.ToString(articulo.Precio);

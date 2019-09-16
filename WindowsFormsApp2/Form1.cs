@@ -14,6 +14,8 @@ namespace WindowsFormsApp2
 {
     public partial class frmInicio : Form
     {
+        private List<Articulo> lista;
+
         public frmInicio()
         {
             InitializeComponent();
@@ -29,6 +31,8 @@ namespace WindowsFormsApp2
             ArticuloNegocio negocio = new ArticuloNegocio();
             try
             {
+                lista = negocio.listar();
+
                 // muestro el origen de datos del listado de articulo osea el listar
                 dgvListadoArticulos.DataSource = negocio.listar();
                 dgvListadoArticulos.Columns[0].Visible = false;
@@ -71,8 +75,17 @@ namespace WindowsFormsApp2
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            var lista = new List<dynamic>();
-            lista = lista.Where(x => x.nombre.Contains(textBox1.Text.ToString())).ToList();
+            List<Articulo> listaFiltrada;
+
+            if (txtBuscar.Text == "")
+            {
+                listaFiltrada = lista;
+            }
+            else
+            {
+                listaFiltrada = lista.FindAll(k => k.Descripcion.ToLower().Contains(txtBuscar.Text.ToLower()) || k.Modelo.ToLower().Contains(txtBuscar.Text.ToLower()) || k.Marca.Nombre.ToLower().Contains(txtBuscar.Text.ToLower()) || k.Categoria.Nombre.ToLower().Contains(txtBuscar.Text.ToLower()));
+            }
+            dgvListadoArticulos.DataSource = listaFiltrada;
 
         }
 

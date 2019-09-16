@@ -28,7 +28,7 @@ namespace Negocio
                 conexion.ConnectionString = "Data source=desktop-evqhp8a\\sqlexpress; initial catalog=COMERCIO;integrated security=sspi";
                 comando.CommandType = System.Data.CommandType.Text;
                 //la consulta como aparece en sql server
-                comando.CommandText = " Select A.Id,A.Modelo,A.Descripcion,M.Nombre Marca ,C.NOMBRE Categoria,A.Imagen,A.Costo,A.Precio,a.Dolar,a.Iva from articulos as A inner join marca as m on m.idMarca = a.idmarca inner join categoria as c on c.idCategoria = a.idcategoria   ";
+                comando.CommandText = " Select A.Id,A.Modelo,A.Descripcion,M.Nombre Marca ,C.NOMBRE Categoria,A.Imagen,A.Costo,A.Precio,a.Dolar,a.Iva from articulos as A inner join marca as m on m.idMarca = a.idmarca inner join categoria as c on c.idCategoria = a.idcategoria where a.estado=1;  ";
 
                 // busca el lugar de la conexion 
                 comando.Connection = conexion;
